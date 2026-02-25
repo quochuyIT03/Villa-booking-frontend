@@ -37,7 +37,7 @@ const Register = () => {
         } else if (isError) {
             message.error('Registration failed');
         }
-    }, [isSuccess, isError, navigate]);
+    }, [isSuccess, isError, handleNavigateSignIn]);
 
     const handleRegister = (e) => {
         e.preventDefault();
