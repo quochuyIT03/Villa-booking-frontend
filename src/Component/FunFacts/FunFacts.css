@@ -1,0 +1,61 @@
+.fun-facts {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.counter {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    background: #ffeee9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.counter:hover {
+    transform: translateY(-10px);
+}
+
+.decoration {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    background: #f35525;
+    border-radius: 50%;
+}
+
+.timer {
+    font-size: 48px;
+    color: #ff6600;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.count-text {
+    font-size: 18px;
+    color: #333;
+}
+
+.count-text br {
+    display: none; /* Hide the <br> on smaller screens */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .count-text {
+        font-size: 16px;
+    }
+
+    .timer {
+        font-size: 36px;
+    }
+}

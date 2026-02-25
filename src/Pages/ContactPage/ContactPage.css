@@ -1,0 +1,145 @@
+.contact-page-wrapper {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .page-heading {
+    padding: 50px 0;
+    text-align: center;
+    background: url('../../assets/banner7.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+  }
+  
+  .page-heading::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .page-heading .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact-page .section-heading h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(243, 85, 37);
+  }
+  
+  .contact-page .section-heading h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-page .contact-info .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page .contact-info .item img.icon {
+    max-width: 52px;
+    margin-right: 15px;
+  }
+  
+  .contact-page .contact-info .item h6 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .contact-page .contact-info .item h6 span {
+    display: block;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  #contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  #contact-form fieldset {
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px; /* Make the input fields rounded */
+    background: rgb(224, 224, 224);
+   
+  }
+  
+  #contact-form input::placeholder,
+  #contact-form textarea::placeholder {
+    color: #000; /* Change the placeholder text color to black */
+  }
+  
+  #contact-form button.orange-button {
+    background: #ffa500;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px; /* Keep the button rounded */
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #contact-form button.orange-button:hover {
+    background: #e69500;
+  }
+  
+  #map iframe {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 768px) {
+    .page-heading {
+      padding: 30px 0;
+    }
+  
+    .contact-page .section-heading h2 {
+      font-size: 28px;
+    }
+  
+    #contact-form {
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.payment-page {
+    padding: 50px 0;
+}
+
+.payment-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h3 {
+    margin-bottom: 30px;
+}
+
+.alternative-payment-methods {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.alternative-payment-methods h4 {
+    margin-bottom: 20px;
+}

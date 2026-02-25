@@ -1,0 +1,134 @@
+/* src/components/WeatherWidget.css */
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f7f9fc;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.search-box button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box button:hover {
+    background: #0056b3;
+}
+
+.not-found {
+    margin-top: 20px;
+}
+
+.not-found img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.not-found p {
+    font-size: 16px;
+    color: #ff4d4d;
+}
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.weather-box img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.weather-box .temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.weather-box .temperature span {
+    font-size: 24px;
+}
+
+.weather-box .description {
+    font-size: 18px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-details .humidity,
+.weather-details .wind {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+}
+
+.weather-details .humidity i,
+.weather-details .wind i {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.weather-details .text {
+    text-align: center;
+}
+
+.weather-details .text span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.weather-details .text p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}

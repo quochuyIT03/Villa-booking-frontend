@@ -1,0 +1,90 @@
+.carousel-item img {
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover;
+    width: 1920px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for better visibility */
+    border-radius: 50%; /* Make the buttons round */
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+}
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23fff"><path d="M11.354 1.354a.5.5 0 0 1 0 .707L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23fff"><path d="M4.646 1.354a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 1 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Hiệu ứng box shadow */
+}
+
+.caption-content {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-input {
+    width: 300px; /* Điều chỉnh kích thước của ô nhập search */
+
+}
+.see-list-button{
+    background: rgb(9, 82, 49);
+    border: none;
+    width: 300px;
+}
+.see-list-button:hover{
+    background: rgb(16, 145, 87);
+    border: none;
+    
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Đưa nội dung ra giữa theo chiều ngang */
+    width: 300px;
+    margin: 0 auto; /* Sử dụng margin auto để căn giữa theo chiều ngang */
+}
+.caption-heading{
+    white-space: pre-line;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+}
+.caption-heading-small{
+    white-space: pre-line;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    color: #000;
+}
+.text-heading-small{
+    white-space: pre-line;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #000;
+   
+}
+.shadow-box {
+    background-color: rgba(255, 255, 255, .85); /* Màu nền cho khung */
+    padding: 220px; /* Khoảng cách giữa nội dung và viền */
+    border-radius: 20px; /* Bo tròn các góc */
+    height: 360px;
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.text-shadow-box {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Tạo hiệu ứng shadow */
+    padding: 20px; /* Tăng khoảng cách nội dung với viền */
+}
