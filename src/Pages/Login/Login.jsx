@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { UserOutlined, LockOutlined, EyeFilled, EyeInvisibleFilled } from '@ant-design/icons';
+import { EyeFilled, EyeInvisibleFilled } from '@ant-design/icons';
 import './Login.css';
 import InputForm from '../../Component/InputForm/InputForm'
 import { FaFacebookF, FaGoogle } from 'react-icons/fa';
 import { useMutationHooks } from '../../hooks/useMutationHook';
 import * as UserService from '../../services/UserService';
-import { useDispatch } from 'react-redux';
+
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -14,7 +14,6 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const location = useLocation();
-    const dispatch = useDispatch();
     const navigate = useNavigate();
 
     const mutation = useMutationHooks(data => UserService.loginUser(data));
