@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import './PropertiesDetail.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaFacebookF, FaTwitter, FaLinkedin, FaInstagram, FaCalendar } from 'react-icons/fa';
 import { Image, Carousel, DatePicker, InputNumber, Button, Form, Input } from 'antd';
 import house from '../../assets/svg/house.png';
 import contact from '../../assets/svg/contact.png';
@@ -11,6 +10,7 @@ import safety from '../../assets/svg/safety.png';
 import moment from 'dayjs';
 
 const PropertiesDetail = () => {
+    // eslint-disable-next-line no-unused-vars
     const { id } = useParams();
 
     const onFinish = (values) => {
